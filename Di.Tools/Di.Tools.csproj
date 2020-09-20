@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Version>0.1.0</Version>
+    <Authors>Dawid Izydor</Authors>
+    <Company>Dawid-Izydor.pl</Company>
+    <Description>Some usefull tools</Description>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Di.Tools</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>DiTools.xml</DocumentationFile>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>DiTools.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>

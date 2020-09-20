@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Di.Tools</name>
+    </assembly>
+    <members>
+        <member name="T:DiTools.Creator.ClassCreatorHelper">
+            <summary>
+                Helps with creating classes
+            </summary>
+        </member>
+        <member name="M:DiTools.Creator.ClassCreatorHelper.CreateChild``2(``1)">
+            <summary>
+                Creates a shadow-copy child object based on parent
+            </summary>
+            <param name="parent">Parent object to create copy from</param>
+            <typeparam name="TChild"><c>Type</c> of child</typeparam>
+            <typeparam name="TParent"><c>Type</c> of parent</typeparam>
+            <exception cref="T:System.NullReferenceException"></exception>
+            <returns>Shadow copy of parent as child object</returns>
+        </member>
+    </members>
+</doc>
