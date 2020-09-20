@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DiTools.Creator
+namespace Di.Tools.Creator
 {
     /// <summary>
     ///     Helps with creating classes
